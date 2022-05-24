@@ -107,7 +107,7 @@ class OptionsState extends MusicBeatState
 		add(selectorRight);
 
 		#if android
-		var tipText:FlxText = new FlxText(10, FlxG.height - 24, 0, 'Presiona la flecha derecha para ir a las opciones de random engine', 16);
+		var tipText:FlxText = new FlxText(10, FlxG.height - 24, 0, 'Press right to enter custom options.', 16);
 		tipText.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		tipText.borderSize = 2;
 		tipText.scrollFactor.set();
